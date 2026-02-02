@@ -1,1 +1,22 @@
-/* Add CSS Styling */
+/* The solution could have been made by adding another class to the fourth element, and having a specific 
+class for adapting the font-size of both classes (check solution.css)
+*/
+.odd {
+  background-color: RGB(255, 102, 102);
+  font-family: Verdana "DejaVu Sans" sans-serif;
+}
+
+#two {
+  color: RGB(0, 102, 204);
+  font-size: 36px;
+}
+
+#four,
+.three {
+  font-size: 24px;
+}
+
+#four {
+  background-color: RGB(204, 255, 103);
+  font-weight: bold;
+}
